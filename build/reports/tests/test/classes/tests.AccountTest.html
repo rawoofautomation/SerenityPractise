@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class tests.AccountTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class tests.AccountTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/tests.html">tests</a> &gt; AccountTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1m13.07s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="verifyProductName"></a>
+<h3 class="failures">verifyProductName</h3>
+<span class="code">
+<pre>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G3PG0JP', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+	at pages.AccountPage.search(AccountPage.java:20)
+	at steps.AccountPageSteps.validateProduct(AccountPageSteps.java:17)
+	at tests.AccountTest.verifyProductName(AccountTest.java:32)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">verifyProductName</td>
+<td class="failures">1m13.07s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>09:39:17.387 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Admin\IdeaProjects\Serenity\serenity.properties 
+09:39:17.418 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Admin\IdeaProjects\Serenity\serenity.properties 
+09:39:17.418 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Admin\IdeaProjects\Serenity\serenity.properties 
+09:39:17.465 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+09:39:17.465 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+09:39:17.465 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Rawoof automation practise
+09:39:17.480 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Admin\IdeaProjects\Serenity\serenity.properties 
+09:39:17.496 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Admin\IdeaProjects\Serenity\serenity.properties 
+09:39:17.496 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Admin\IdeaProjects\Serenity\serenity.properties 
+09:39:17.496 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+09:39:17.496 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+09:39:17.496 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Rawoof automation practise
+09:39:19.136 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+09:39:19.199 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for class tests.AccountTest
+09:39:19.246 [Test worker] INFO  - Test Suite Started: Account test
+09:39:19.292 [Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+verifyProductName
+--------------------------------------------------------------------------------
+09:39:20.225 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountTest.verifyProductName - launchApplication
+09:39:20.366 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+09:39:21.865 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=92 in cache (valid until 10:29:43 10/08/2021 IST)
+09:39:21.865 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome92=92.0.4515.107 in cache (valid until 09:29:43 11/08/2021 IST)
+09:39:21.865 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+09:39:21.897 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 92.0.4515.107 found in cache
+09:39:21.897 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+09:39:22.803 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+09:39:22.803 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+09:39:53.792 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+09:39:53.792 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+09:40:09.368 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\3768936e67a7a195e62f1e68776b71b2abbf4d79be0556b2636d4030ba896404.png
+09:40:09.399 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: launchApplication
+09:40:09.415 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountTest.verifyProductName - userLogin
+09:40:19.537 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\805a5a69ba1946ac89b8db81a397112f8c93400e14d763c2379be0edf97f24e9.png
+09:40:19.537 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: userLogin
+09:40:19.569 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountTest.verifyProductName - verifyLogin
+09:40:19.791 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\805a5a69ba1946ac89b8db81a397112f8c93400e14d763c2379be0edf97f24e9.png
+09:40:19.791 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: verifyLogin
+09:40:19.822 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountTest.verifyProductName - validateAccountPage
+09:40:20.447 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\805a5a69ba1946ac89b8db81a397112f8c93400e14d763c2379be0edf97f24e9.png
+09:40:20.447 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateAccountPage
+09:40:20.479 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AccountTest.verifyProductName - validateProduct
+09:40:31.928 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\8cc5c981f980c41e59e75531630db19d5ef4a4a6022ee7b82d7c8780d7e48229.png
+09:40:31.928 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4062494101612966587
+09:40:31.928 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\8cc5c981f980c41e59e75531630db19d5ef4a4a6022ee7b82d7c8780d7e48229.png
+09:40:32.240 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP FAILED: validateProduct - Expected enabled element was not enabled
+09:40:32.272 [Test worker] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+Verify product name
+-----------------------------------------------------------------------
+09:40:32.272 [Test worker] DEBUG  - RELATED ISSUES: 
+09:40:32.568 [Test worker] ERROR  -     Test failed at step: Validate product: dress, Casual Dresses &gt; Printed Dress
+09:40:32.568 [Test worker] ERROR  -     Expected enabled element was not enabled
+09:40:37.666 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+09:40:37.666 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+09:40:37.666 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+09:40:38.431 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+09:40:38.509 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@bb4e5f
+09:40:38.541 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Account test:verifyProductName
+09:40:38.541 [pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@bb4e5f: Generating report for test outcome: Account test:verifyProductName
+09:40:38.556 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify product name to file C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\a8a033f360ae43e96f0df19caf23a08c996217c04d4b057cb9979afbc8557313.json (using temp file C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\a8a033f360ae43e96f0df19caf23a08c996217c04d4b057cb9979afbc8557313.json05fd2fd8-d5a9-4a40-aa74-bf30b763f527)
+09:40:38.978 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Account test:verifyProductName done
+09:40:38.978 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+09:40:38.978 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 469 ms
+09:40:38.978 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@1b4bc8
+09:40:38.978 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Account test:verifyProductName
+09:40:38.978 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@1b4bc8: Generating report for test outcome: Account test:verifyProductName
+09:40:40.634 [pool-2-thread-1] DEBUG serenity.reporting - Generating report in a8a033f360ae43e96f0df19caf23a08c996217c04d4b057cb9979afbc8557313_screenshots.html
+09:40:41.665 [pool-2-thread-1] DEBUG serenity.reporting - Generated report a8a033f360ae43e96f0df19caf23a08c996217c04d4b057cb9979afbc8557313_screenshots.html in 1031 ms
+09:40:41.665 [pool-2-thread-1] DEBUG serenity.reporting - Generating report in a8a033f360ae43e96f0df19caf23a08c996217c04d4b057cb9979afbc8557313.html
+09:40:41.821 [pool-2-thread-1] DEBUG serenity.reporting - Generated report a8a033f360ae43e96f0df19caf23a08c996217c04d4b057cb9979afbc8557313.html in 156 ms
+09:40:41.837 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Account test:verifyProductName done
+09:40:41.837 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+09:40:41.837 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 2859 ms
+09:40:42.493 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating report for configuration
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 43391
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 10, 2021 9:39:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1628568603.947][SEVERE]: Timed out receiving message from renderer: 10.000
+[1628568603.947][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1.1</a> at Aug 10, 2021 9:41:40 AM</p>
+</div>
+</div>
+</body>
+</html>

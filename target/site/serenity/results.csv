@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login page tests","App login test","SUCCESS","2021-08-08T19:53:27.443+05:30[Asia/Calcutta]","0.0","145.91"
+"Account test","Verify product name","FAILURE","2021-08-10T09:39:19.292+05:30[Asia/Calcutta]","0.0","73.28"
+"Login page tests","Application login test","SUCCESS","2021-08-10T09:40:42.555+05:30[Asia/Calcutta]","0.0","55.63"

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginPageTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-10T04:10:42" hostname="DESKTOP-G3PG0JP" time="55.628">
+  <properties/>
+  <testcase name="applicationLoginTest" classname="tests.LoginPageTests" time="55.628"/>
+  <system-out><![CDATA[09:40:42.555 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for class tests.LoginPageTests
+09:40:42.555 [Test worker] INFO  - Test Suite Started: Login page tests
+09:40:42.555 [Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+applicationLoginTest
+--------------------------------------------------------------------------------
+09:40:42.555 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginPageTests.applicationLoginTest - launchApplication
+09:40:42.602 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+09:40:42.633 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=92 in cache (valid until 10:29:43 10/08/2021 IST)
+09:40:42.633 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome92=92.0.4515.107 in cache (valid until 09:29:43 11/08/2021 IST)
+09:40:42.633 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+09:40:42.649 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 92.0.4515.107 found in cache
+09:40:42.649 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+09:40:42.915 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+09:40:42.915 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+09:41:10.119 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+09:41:10.119 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+09:41:30.939 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\3768936e67a7a195e62f1e68776b71b2abbf4d79be0556b2636d4030ba896404.png
+09:41:30.939 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: launchApplication
+09:41:30.971 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginPageTests.applicationLoginTest - userLogin
+09:41:37.931 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\805a5a69ba1946ac89b8db81a397112f8c93400e14d763c2379be0edf97f24e9.png
+09:41:37.939 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: userLogin
+09:41:37.963 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginPageTests.applicationLoginTest - verifyLogin
+09:41:38.184 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\805a5a69ba1946ac89b8db81a397112f8c93400e14d763c2379be0edf97f24e9.png
+09:41:38.184 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: verifyLogin
+09:41:38.184 [Test worker] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Application login test
+----------------------------------------------------------------------
+09:41:39.690 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+09:41:39.690 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+09:41:39.690 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+09:41:39.694 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+09:41:39.694 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@2b151357
+09:41:39.773 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Login page tests:applicationLoginTest
+09:41:39.773 [pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@2b151357: Generating report for test outcome: Login page tests:applicationLoginTest
+09:41:39.773 [pool-3-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Application login test to file C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\38c8704a04ca0a5d5055ccfe6dbced37d7edca3e510daf6e66393c38b0c7dd9e.json (using temp file C:\Users\Admin\IdeaProjects\Serenity\target\site\serenity\38c8704a04ca0a5d5055ccfe6dbced37d7edca3e510daf6e66393c38b0c7dd9e.jsonffd5588f-bdb2-407e-a9cb-3cf7d69cfc36)
+09:41:39.788 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Login page tests:applicationLoginTest done
+09:41:39.788 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+09:41:39.788 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 94 ms
+09:41:39.788 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@574ab07f
+09:41:39.788 [pool-4-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Login page tests:applicationLoginTest
+09:41:39.788 [pool-4-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@574ab07f: Generating report for test outcome: Login page tests:applicationLoginTest
+09:41:39.999 [pool-4-thread-1] DEBUG serenity.reporting - Generating report in 38c8704a04ca0a5d5055ccfe6dbced37d7edca3e510daf6e66393c38b0c7dd9e_screenshots.html
+09:41:40.015 [pool-4-thread-1] DEBUG serenity.reporting - Generated report 38c8704a04ca0a5d5055ccfe6dbced37d7edca3e510daf6e66393c38b0c7dd9e_screenshots.html in 16 ms
+09:41:40.015 [pool-4-thread-1] DEBUG serenity.reporting - Generating report in 38c8704a04ca0a5d5055ccfe6dbced37d7edca3e510daf6e66393c38b0c7dd9e.html
+09:41:40.046 [pool-4-thread-1] DEBUG serenity.reporting - Generated report 38c8704a04ca0a5d5055ccfe6dbced37d7edca3e510daf6e66393c38b0c7dd9e.html in 31 ms
+09:41:40.046 [pool-4-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Login page tests:applicationLoginTest done
+09:41:40.046 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+09:41:40.046 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 258 ms
+09:41:40.046 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating report for configuration
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 20205
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 10, 2021 9:40:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1628568680.177][SEVERE]: Timed out receiving message from renderer: 10.000
+[1628568680.178][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1628568690.189][SEVERE]: Timed out receiving message from renderer: 10.000
+]]></system-err>
+</testsuite>

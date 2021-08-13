@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="tests.AccountTest" skipped="0" tests="1" time="73.28" timestamp="2021-08-10 09:39:19"><testcase classname="tests.AccountTest" name="Verify product name"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+pages.AccountPage.search(AccountPage.java:20)&#13;
+steps.AccountPageSteps.validateProduct(AccountPageSteps.java:17)&#13;
+tests.AccountTest.verifyProductName(AccountTest.java:32)&#13;
+</system-err></testcase></testsuite>
